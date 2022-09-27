@@ -7,6 +7,9 @@ import { useNavigate } from "react-router-dom";
 
 export default function Navbar(props) {
   const navigate = useNavigate();
+  const imageHandler = () => {
+    navigate("/");
+  };
 
   const [clicked, setClicked] = useState(0);
   const menuHandler = () => {
@@ -73,8 +76,10 @@ export default function Navbar(props) {
         </motion.div> */}
 
         <motion.div
+        onClick={imageHandler}
           animate={clicked == 1 ? { y: [0, -1000] } : { y: [-1000, 0] }}
           className="tagLogo"
+          
         >
           <img src="Assets/tagLogo.svg" className="imgTag" />
         </motion.div>

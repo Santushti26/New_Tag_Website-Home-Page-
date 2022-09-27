@@ -29,6 +29,7 @@ import Registration from "./Registration";
 import STSReg from "./STSReg"
 import Workshop from "./Workshop";
 import Events from "./Events";
+import Sponsers from "./OurSponsers"
 
 function App() {
   const location = useLocation();
@@ -51,6 +52,9 @@ function App() {
       <Route path = "/Events" element = {<Events />} />
       <Route path="/Rulebook" element={<Rulebook/>} />
       <Route path="/" element={<Home />} />
+      <Route path ="/Workshop" element = {<Workshop />} />
+      <Route path ="/Sponsers" element ={ <Sponsers />} />
+
     </Routes>
     // </BrowserRouter>
   );

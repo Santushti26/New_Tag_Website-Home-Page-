@@ -64,6 +64,10 @@
     font-size: 2.7vh;
     opacity: 0.8;
 }
+.image1{
+  height: 100rem;
+  width: 100rem;
+}
 
 
 /* Mobile Version Using Media Query */

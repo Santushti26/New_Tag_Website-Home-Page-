@@ -18,7 +18,7 @@ export default function FIFAReg() {
                 GENERAL RULES
             </p>
             <p className="rulebookBody">
-            1) Participants should be punctual, and come preferably 5 mins early to their allotted time slots at Venue <br/>
+            1) Participants should be punctual, and come preferably 5 mins early to their allotted time slots at Venue- SJT-416, SJT-417, SJT-418, SJT-419<br/>
             2) A delay of 5 minutes at the maximum will be tolerated. 	<br/>
             3) Participants must acknowledge and comply with the rules and regulations, official announcement and statements and decisions made by the admin/s. (decisions made by the admin is final).<br/>
             4) Systems will NOT be provided; Participants MUST bring their OWN Laptop and all required peripherals.<br/>

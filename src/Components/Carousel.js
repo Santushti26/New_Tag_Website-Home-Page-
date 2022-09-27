@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from 'react';
 // import Slider from 'react-touch-drag-slider'
 import './carousel.css'
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router-dom';
 
 export default function Carousel(props) {
   // console.log(images);
@@ -14,11 +15,20 @@ export default function Carousel(props) {
     threshold: 0,
   });
 
+  const navigate = useNavigate();
+
   useEffect(()=>
   {
     // console.log(carousel.curremt.scrollWidth, carousel.current.offsetWidth);
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
   },[])
+
+
+
+  const buttonHandler = ()=>
+  {
+      navigate(props.link);
+  }
 
   return (
     <div className={inView?'carouselContainer carouselContainer--zoom':'carouselContainer'} ref={ref}>
@@ -27,7 +37,7 @@ export default function Carousel(props) {
         <h2 className='heading'>
           {props.heading.toUpperCase()}
         </h2>
-        <h4 className='viewHeading'>
+        <h4 onClick={buttonHandler} className='viewHeading'>
           VIEW ALL {props.heading.toUpperCase()}
         </h4>
       </div>
@@ -46,6 +56,6 @@ export default function Carousel(props) {
         </motion.div>
       </div>
     </motion.div>
-    </div>
-  )
+    </div>
+  )
 }

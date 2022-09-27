@@ -20,6 +20,10 @@ export default function Navbar(props) {
   const buttonHandler = () => {
     navigate("/EventVGL");
   };
+  const imageHandler = () => {
+    navigate("/");
+  };
+
 
   return (
     <>

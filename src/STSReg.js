@@ -20,7 +20,7 @@ export default function ValReg() {
             <p className="rulebookBody">
             1)Maximum participants allowed per team is 5.
  <br/>
-2) The participants must enter the allotted lab on time.	<br/>
+2) The participants must enter the allotted lab on time. Venue - SJT-416, SJT-417, SJT-418, SJT-419	<br/>
 3) The participants must enter his and his teammates’ details during submission.
 <br/>
 4) Any game engine can be used to create the games to be submitted.<br/>
