@@ -76,7 +76,7 @@ export default function Navbar(props) {
         </motion.div> */}
 
         <motion.div
-        onClick={imageHandler}
+        
           animate={clicked == 1 ? { y: [0, -1000] } : { y: [-1000, 0] }}
           className="tagLogo"
           

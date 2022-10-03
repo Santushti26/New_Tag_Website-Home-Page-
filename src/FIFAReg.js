@@ -34,7 +34,7 @@ export default function FIFAReg() {
             <p className="rulebookBody">
             The matches are going to be 1v1 format only.<br/>
 The matches will be played in 2 Legs (Home and Away). The winner will be decided on aggregate score or in case of a draw over 2 legs (There is no AWAY GOAL RULE) , the game will proceed to extra time and further into penalties.<br/>
-The final match will only be a SINGLE LEG and will be held on neutral grounds.<br/>
+The final match will only be a SINGLE LEG single leg and will be held on neutral grounds.<br/>
 If both the participants chose the same teams, the winner of a coin toss will get to keep their team and the opponent has to proceed to choose a different team.<br/>
 Camera settings - Default. <br/>
 Legacy defending is strictly not allowed. <br/>
