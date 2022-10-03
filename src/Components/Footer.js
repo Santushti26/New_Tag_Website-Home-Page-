@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
         </div>
         <div className="footerExtremeRight">
-            Technology And Gaming Club 2022
+            Technology And Gaming Club 2021-22
         </div>
     </div>
     <div className="bottomButton">
